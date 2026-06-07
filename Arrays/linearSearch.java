@@ -19,3 +19,5 @@ public class linearSearch{
       }
    }
 }
+
+//tc = O(n) because in worst case we have to traverse the entire array.
