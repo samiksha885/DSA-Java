@@ -34,7 +34,7 @@ public class validAnagram{
           
         // Agar kisi bhi character ka count 0 nahi hai 
         for(int i = 0 ;i<26; i++){
-            if(count[0] != 0){
+            if(count[i]!= 0){
                 return false;
             }
         }
