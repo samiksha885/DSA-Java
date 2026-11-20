@@ -1,5 +1,5 @@
+ 
 // Compression of String using StringBuilder.
-
 // T(C) = O(n) and S(C) = O(n)
 public class Stringcompression {
     public static String stringCompression(String str){
@@ -24,8 +24,11 @@ public class Stringcompression {
     }
 
 
+
 public static void main(String args[]){
-    String str ="aaabbccdd";
-     System.out.println(stringCompression(str));
-}
-}
+    String str = "aaaabbbccddda";
+
+    String ans = stringCompression(str);
+    System.out.println(ans);
+   }
+  }
